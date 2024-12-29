@@ -1,0 +1,472 @@
+<resources>
+    <string name="app_name">云音乐</string>
+
+    <string name="player_progress_format" translatable="false">%1$s:%2$s</string>
+
+    <!--版权文本-->
+    <string name="copyright" translatable="false">Copyright © %1$d Ixuea. All Rights Reserved</string>
+
+    <!--用户协议-->
+    <string name="term_service_privacy">服务条款和隐私协议提示</string>
+    <string name="agree">同意</string>
+    <string name="disagree">不同意并退出应用</string>
+
+    <string name="home">首页</string>
+    <string name="video">视频</string>
+    <string name="me">我的</string>
+    <string name="feed">动态</string>
+
+    <string name="wifi_preload">WiFi预加载</string>
+    <string name="ad_click_tip">点击跳转详情页面查看更多</string>
+    <string name="skip_ad_count">跳过%1$ds</string>
+    <string name="not_found_activity">找不到对应的应用</string>
+
+    <string name="search_tip">搜索 爱学啊</string>
+
+    <string name="product_item_info">%1$s条评论 %2$s%%好评</string>
+
+    <string name="phone_or_email">手机号或邮箱</string>
+    <string name="enter_phone_or_email">请输入手机号或邮箱</string>
+    <string name="enter_email">请输入邮箱</string>
+    <string name="confirm_password">确认密码</string>
+    <string name="enter_confirm_password">请输入确认密码</string>
+    <string name="enter_code">请输入验证码</string>
+    <string name="error_nickname_format">昵称格式不正确(2~10位)</string>
+    <string name="error_phone_format">手机号格式不正确</string>
+    <string name="error_email_format">邮箱格式不正确</string>
+    <string name="error_confirm_password_format">确认密码格式不正确</string>
+    <string name="error_confirm_password">两次密码不正确</string>
+    <string name="load_success">加载成功</string>
+    <string name="error_load">加载失败</string>
+    <string name="refresh_success_new_data_added">刷新成功，新增%1$d条数据</string>
+    <string name="refresh_fail_reason">刷新成功，%1$s</string>
+    <string name="error_reason">错误原因：%1$s</string>
+    <string name="unknown_error">未知错误，请检查网络以及服务端</string>
+    <string name="error_load_click">加载失败，点击重试</string>
+    <string name="error_message_click_retry">%1$s，点击重试</string>
+    <string name="empty_data">没有数据</string>
+    <string name="enter_password">请输入密码(6~15位)</string>
+    <string name="password">用户密码</string>
+    <string name="login">登录</string>
+    <string name="forgot_password">忘记密码</string>
+
+    <string name="error_username_format">用户名格式不正确</string>
+    <string name="error_password_format">密码格式不正确</string>
+    <string name="register_and_login">注册并登陆</string>
+    <string name="click_retry">点击重试</string>
+
+    <string name="error_connect_server">连接服务器失败，请检查服务端是否运行</string>
+    <string name="error_loading">请求数据失败，详情请查看错误日志，%1$s</string>
+    <string name="error_network_not_connect">你的网络好像不太好</string>
+
+    <string name="whole">全部</string>
+    <string name="wait_pay">待付款</string>
+    <string name="order_close">已关闭</string>
+    <string name="wait_shipped">待发货</string>
+    <string name="wait_received">待收货</string>
+    <string name="wait_comment">待评价</string>
+    <string name="complete">完成</string>
+    <string name="refund_sales_service">退款/售后</string>
+
+    <string name="loading">加载中...</string>
+
+    <string name="error_pay_channel">支付渠道错误</string>
+    <string name="hint_pay_wait">支付确认中</string>
+    <string name="error_pay_cancel">支付取消</string>
+    <string name="error_pay_failed">支付失败</string>
+
+    <string name="confirm_back">确认返回</string>
+    <string name="continue_pay">继续支付</string>
+
+    <string name="pay_timeout">支付超时</string>
+    <string name="order_timeout_message">请返回商品详情，重新下单</string>
+
+    <string name="price">￥%1$.2f</string>
+    <string name="price2">%1$.2f</string>
+
+    <string name="selected2">已选</string>
+    <string name="sent_to">送至</string>
+    <string name="store">门店</string>
+
+    <string name="customer_service">客服</string>
+    <string name="cart">购物车</string>
+    <string name="buy_now">立即购买</string>
+    <string name="add_cart">加入购物车</string>
+    <string name="add_cart_success">加入购物车成功</string>
+    <string name="experience_now">立即体验</string>
+
+    <string name="login_or_register">登录或注册</string>
+    <string name="login_error">登录失败</string>
+    <string name="thrid_part_login_error">第三方登录失败，%1$s</string>
+    <string name="qq_login_error">QQ登录失败，%1$s</string>
+    <string name="code_login">验证码登录</string>
+    <string name="username_login">用户名和密码登录</string>
+    <string name="login_now">立即登录</string>
+    <string name="logout">退出登录</string>
+    <string name="register">立即注册</string>
+    <string name="hint_interest">填写兴趣更懂你</string>
+
+    <string name="super_vip">超级会员</string>
+    <string name="mall_vip_hint">会员可享更多权益</string>
+
+    <string name="my_collect">我的收藏</string>
+    <string name="coupon">优惠券</string>
+
+    <string name="my_order">我的订单</string>
+    <string name="all_order">全部订单</string>
+
+
+    <string name="my_assets">我的资产</string>
+    <string name="mall_community">品味社区</string>
+    <string name="my_wallet">我的钱包</string>
+    <string name="subsidy_venue">补贴会场</string>
+    <string name="questionnaire_survey">问卷调查</string>
+    <string name="office_customer_service">官方客服</string>
+    <string name="friend_assistance">好友助力</string>
+    <string name="installment_services">分期服务</string>
+    <string name="user_complaints">用户投诉</string>
+    <string name="other_function">其他功能</string>
+    <string name="mention">朋友圈</string>
+    <string name="more_service">更多服务</string>
+
+    <string name="select_address">请选择收货地址</string>
+    <string name="default_address_text">[默认]</string>
+
+    <string name="receiving_address">收货地址</string>
+    <string name="receiving_address_detail">收货地址详情</string>
+    <string name="add_receiving_address">添加收货地址</string>
+    <string name="success_delete">删除成功</string>
+
+    <string name="select_province">选择省份</string>
+    <string name="select_city">选择城市</string>
+    <string name="select_area">选择地区</string>
+
+    <string name="confirm_delete">确认删除吗？</string>
+    <string name="select_all">全选</string>
+
+    <!--我的资料-->
+    <string name="edit">编辑</string>
+    <string name="my_profile">我的资料</string>
+    <string name="save">保存</string>
+    <string name="avatar">头像</string>
+    <string name="nickname">昵称</string>
+    <string name="enter_nickname">请输入昵称(2~10位)</string>
+    <string name="gender">性别</string>
+    <string name="birthday">生日</string>
+    <string name="area">地区</string>
+    <string name="description">个人介绍</string>
+    <string name="hint_description">请向大家介绍下自己吧</string>
+    <string name="phone">手机号</string>
+    <string name="enter_phone">请输入手机号</string>
+    <string name="email">邮箱</string>
+    <string name="third_account">第三方账号</string>
+    <string name="qq">QQ</string>
+    <string name="bind">绑定</string>
+    <string name="unbind">解绑</string>
+    <string name="weibo">微博</string>
+    <string name="generate_poster">生成海报</string>
+    <string name="copy_link">复制链接</string>
+    <string name="share_group">组合分享</string>
+    <string name="save_album">保存相册</string>
+    <string name="save_album_success">保存相册成功</string>
+
+    <string name="select_gender">请选择性别</string>
+    <string name="success_bind">绑定成功</string>
+    <string name="bind_error">绑定失败</string>
+    <string name="confirm_unbind">确定解绑吗？</string>
+    <string name="success_unbind">解绑成功</string>
+    <string name="add">添加</string>
+
+    <!--二维码-->
+    <string name="hint_scan_my_code">使用云音乐扫描即可关注我</string>
+    <string name="hint_scan_code">将二维码放入框内即可扫描</string>
+    <string name="error_not_support_qrcode_format">不支持该格式</string>
+
+    <string name="setting">设置</string>
+
+    <string name="confirm_order">确认订单</string>
+    <string name="product_count">X%1$d</string>
+
+    <string name="total">合计：</string>
+    <string name="settle_account">结算</string>
+    <string name="settle_account_count">结算(%1$d)</string>
+    <string name="product_total_price">商品总价</string>
+    <string name="freight">运费</string>
+    <string name="free_freight">包邮</string>
+    <string name="no_available">无可用</string>
+    <string name="no_coupon">无优惠券</string>
+    <string name="total_count">共%1$d件，合计：</string>
+    <string name="available_count">%1$d张可用</string>
+    <string name="go_pay">去支付</string>
+
+    <string name="pay_order">支付订单</string>
+    <string name="confirm_pay_price">确认付款</string>
+    <string name="pay_remaining_time">支付剩余时间 %1$s</string>
+    <string name="payment_before">请在%1$s之前完成支付</string>
+    <string name="shipped_hint">你的包裹正向你飞奔而来</string>
+    <string name="alipay">支付宝</string>
+    <string name="wechat">微信</string>
+    <string name="wechat_moment">朋友圈</string>
+    <string name="huabei_stages">花呗分期</string>
+
+    <string name="no_more_data">没有更多数据了</string>
+    <string name="no_data">没有数据</string>
+    <string name="no_search_product">没有搜索到相关商品</string>
+
+    <string name="amount_pay">应付金额</string>
+    <string name="order_time">下单时间</string>
+    <string name="order_no">订单编号</string>
+    <string name="order_source">订单来源</string>
+    <string name="pay_platform">支付平台</string>
+    <string name="pay_channel">支付渠道</string>
+    <string name="refund">退款</string>
+    <string name="delete">删除</string>
+
+    <string name="recognition_address_tip">粘贴文本，可以自动识别姓名，电话和地址\n例如：四川省成都市天府新区牧华路远大中央公园9栋1单元801 李薇 13141111222</string>
+    <string name="recognition">识别</string>
+    <string name="receive_name">收货姓名</string>
+    <string name="receive_telephone">收货电话</string>-
+    <string name="receive_area">收货地区</string>
+    <string name="detail_address">详细地址</string>
+    <string name="default_address">默认地址</string>
+    <string name="enter_receive_name">请输入收货姓名</string>
+    <string name="enter_receive_telephone">请输入收货电话</string>
+    <string name="enter_receive_area">请选择收货地区</string>
+    <string name="enter_detail_address">请输入详细地址</string>
+    <string name="ocr_error">百度OCR错误：%1$s，错误码：%2$d</string>
+    <string name="voice_input">语音输入</string>
+    <string name="stop_voice_input">停止输入</string>
+    <string name="voice_error_no_result">没有识别结果，请声音大一点，并避开嘈杂的环境等</string>
+    <string name="voice_error">百度语音输入错误：错误码：%1$d，子错误码：%2$d，详细信息：%3$s</string>
+    <string name="save_success">保存成功</string>
+    <string name="save_failed">保存失败</string>
+    <string name="delete_success">删除成功</string>
+    <string name="camera_permission_hint">请允许使用相机</string>
+    <string name="album_permission_hint">请允许访问相册</string>
+
+    <string name="point_your_camera_at_a_barcode">将摄像头对准二维码</string>
+    <string name="move_your_camera_to_place_the_barcode_in_the_frame">将二维码置于框架中</string>
+    <string name="move_closer_to_the_barcode">靠近二维码</string>
+    <string name="loading_the_result">正在加载结果</string>
+    <string name="loading_product_result_error_generic">请稍后再试</string>
+
+
+    <string name="my_code">我的二维码</string>
+    <string name="create_feed">发动态</string>
+    <string name="publish">发布</string>
+    <string name="hint_feed">请输入动态内容.</string>
+    <string name="error_feed_length">内容不能超过140字符.</string>
+
+    <string name="upload_failed">上传失败，请稍后再试</string>
+    <string name="loading_upload">上传第%1$d张图片</string>
+
+    <string name="error_message_login">登录聊天服务器失败，可以注册新账号试试，如果还有问题联系客服</string>
+    <string name="hint_enter_message">请输入内容</string>
+    <string name="send">发送</string>
+    <string name="my_message">我的消息</string>
+    <string name="error_load_conversation_list">加载会话列表失败</string>
+
+    <!--单聊通知 未读消息数大于1-->
+    <string name="message_notification_count">[%1$d条]：%2$s</string>
+
+    <string name="emoji_selector_desc">表情符号选择器</string>
+    <string name="emoji_selector_bt_desc">显示表情符号选择器</string>
+    <string name="dm_desc">私信</string>
+    <string name="attach_photo_desc">附加照片</string>
+    <string name="map_selector_desc">位置选择器</string>
+    <string name="videochat_desc">开始视频聊天</string>
+    <string name="textfield_desc">文本输入</string>
+    <string name="not_available">功能当前不可用</string>
+    <string name="not_available_subtitle">拿一杯饮料，稍后再来看看吧！</string>
+    <string name="attached_image">附加图片</string>
+    <string name="search">搜索</string>
+    <string name="info">信息</string>
+    <string name="more_options">更多选项</string>
+    <string name="touch_and_hold_to_record">按住不放以录制</string>
+    <string name="record_message">录制语音消息</string>
+    <string name="swipe_to_cancel_recording">&#x25C0; 滑动以取消</string>
+    <string name="emojis_label">表情符号</string>
+    <string name="stickers_label">贴纸</string>
+
+    <string name="chat_message_image">[图片]</string>
+
+    <!--验证码-->
+    <string name="send_code">发送验证码</string>
+    <string name="verification_code">请输入验证码</string>
+    <string name="verification_code_sent_to">验证码已发送到%1$s</string>
+    <string name="resend">重新发送</string>
+    <string name="resend_count">%1$ds后可重新发送</string>
+    <string name="error_code_format">验证码格式不正确</string>
+
+    <string name="set_password">重设密码</string>
+    <string name="confirm">确认</string>
+    <string name="cancel">取消</string>
+
+    <string name="like">点赞</string>
+    <string name="comment">评论</string>
+    <string name="collect">收藏</string>
+    <string name="count_format">%1$.1f万</string>
+    <string name="share">分享</string>
+    <string name="category">分类</string>
+
+    <string name="hot_search">热门搜索</string>
+    <string name="search_history">搜索历史</string>
+
+    <string name="delete_all">全部删除</string>
+    <string name="pull_up_load_more">上拉加载更多</string>
+
+    <string name="stock_count">库存：%1$d</string>
+    <string name="stock_selected">已选：%1$s</string>
+    <string name="number">数量</string>
+
+    <string name="permission_record_audio_denied">你拒绝了录音权限，请允许才能语音输入</string>
+
+    <string name="term_service_privacy_content">
+        <Data><![CDATA[
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;本软件尊重并保护所有使用服务用户的个人隐私权。为了给您提供更准确、更有个性化的服务，本软件会按照本隐私权政策的规定使用和披露您的个人信息。但本软件将以高度的勤勉、审慎义务对待这些信息。除本隐私权政策另有规定外，在未征得您事先许可的情况下，本软件不会将这些信息对外披露或向第三方提供。本软件会不时更新本隐私权政策。请你认真阅读并了解《<a href="https://www.ixuea.com/articles/4449">服务条款</a>》和《<a href="https://www.ixuea.com/articles/4467">隐私政策</a>》，您在同意本软件服务使用协议之时，即视为您已经同意本隐私权政策全部内容。本隐私权政策属于本软件服务使用协议不可分割的一部分。</p>
+
+        <p>1.适用范围</p>
+
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;1.1 在您使用本软件网络服务，本软件自动接收并记录的您的手机上的信息，包括但不限于您的健康数据、使用的语言、访问日期和时间、软硬件特征信息及您需求的网页记录等数据；</p>
+
+        <p>2.信息的使用</p>
+
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;2.1 在获得您的数据之后，本软件会将其上传至服务器，以生成您的排行榜数据，以便您能够更好地使用服务。</p>
+
+        <p>3.信息披露</p>
+
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;3.1 本软件不会将您的信息披露给不受信任的第三方。</p>
+
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;3.2 根据法律的有关规定，或者行政或司法机构的要求，向第三方或者行政、司法机构披露；</p>
+
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;3.3 如您出现违反中国有关法律、法规或者相关规则的情况，需要向第三方披露；</p>
+
+        <p>4. 信息存储和交换</p>
+
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;本软件收集的有关您的信息和资料将保存在本软件及（或）其关联公司的服务器上，这些信息和资料可能传送至您所在国家、地区或本软件收集信息和资料所在地的境外并在境外被访问、存储和展示。</p>
+
+        <p>5.信息安全</p>
+
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;在使用本软件网络服务进行网上交易时，您不可避免的要向交易对方或潜在的交易对方披露自己的个人信息，如联络方式或者邮政地址。请您妥善保护自己的个人信息，仅在必要的情形下向他人提供。如您发现自己的个人信息泄密，请您立即联络本软件客服，以便本软件采取相应措施。</p>
+    ]]> </Data>
+    </string>
+
+    <string name="core_chat_message_notification_channel_name">消息通知</string>
+    <string name="core_chat_message_notification_channel_description">新的聊天消息通知</string>
+
+    <string name="music_service_channel_name">音乐服务</string>
+    <string name="music_service_channel_description">音乐播放服务，请勿终止</string>
+
+    <string name="feature_settings_theme">主题</string>
+
+    <string name="feature_settings_dynamic_color_preference">使用动态颜色</string>
+    <string name="feature_settings_dynamic_color_yes">是</string>
+    <string name="feature_settings_dynamic_color_no">否</string>
+
+    <string name="feature_settings_dark_mode_preference">深色模式</string>
+    <string name="feature_settings_dark_mode_config_system_default">跟随系统</string>
+    <string name="feature_settings_dark_mode_config_light">浅色</string>
+    <string name="feature_settings_dark_mode_config_dark">深色</string>
+
+    <string name="show_more">查看更多</string>
+    <string name="hot_product">热销好货</string>
+    <string name="recommand_for_you">为你推荐</string>
+
+    <string name="buy_vip">开通黑胶VIP</string>
+    <string name="member_center">会员中心</string>
+    <string name="vip_hint">加入黑胶VIP，彰显语种不同</string>
+    <string name="vip_hint_price">专享特惠，黑胶首月仅0.01元！</string>
+    <string name="my_friend">我的好友</string>
+    <string name="my_fans">我的粉丝</string>
+    <string name="short_video">短视频</string>
+    <string name="shop">商品</string>
+    <string name="mall">官方商城</string>
+    <string name="other">其他</string>
+    <string name="dark_mode">夜间模式</string>
+    <string name="timed_off">定时关闭</string>
+    <string name="person_dress">个性装扮</string>
+    <string name="cache_while_list">边听边缓存</string>
+    <string name="music_alarm_clock">音乐闹钟</string>
+
+    <string name="my_customer_service">我的客服</string>
+    <string name="share_app">分享云音乐</string>
+    <string name="about">关于</string>
+
+    <string name="not_open">未开启</string>
+
+    <string name="feature_cart_removed">删除成功</string>
+    <string name="feature_cart_undo">撤销</string>
+    <string name="error_network">网络连接不可用</string>
+
+    <string name="user_agreement_start">登录即表示你同意</string>
+    <string name="user_agreement">《用户协议》</string>
+    <string name="user_agreement_and">和</string>
+    <string name="user_agreement_privacy_policy">《隐私政策》</string>
+
+    <string name="current_version">当前版本</string>
+    <string name="version_value" translatable="false">V%1$s-%2$d</string>
+
+    <string name="function_introduction">功能介绍</string>
+    <string name="playlist">播放列表</string>
+    <string name="recommend_sheet">推荐歌单</string>
+    <string name="recommend_song">推荐单曲</string>
+    <string name="sheet">歌单</string>
+    <string name="play_all">播放全部</string>
+    <string name="song">单曲</string>
+    <string name="user">用户</string>
+    <string name="artist">歌手</string>
+    <string name="lyric">歌词</string>
+    <string name="album">专辑</string>
+    <string name="topic">话题</string>
+
+    <string name="recent">最近</string>
+    <string name="local">本地</string>
+    <string name="cloud_disk">云盘</string>
+    <string name="purchased">已购</string>
+
+    <string name="follow">关注</string>
+    <string name="fans">粉丝</string>
+
+    <string name="local_music">本地音乐</string>
+    <string name="play_local_music">播放本地音乐</string>
+    <string name="no_local_music">没有本地音乐</string>
+    <string name="download_manager">下载管理</string>
+    <string name="play_history">最近播放</string>
+    <string name="my_radio">我的电台</string>
+    <string name="sati">Sati 空间</string>
+
+
+    <string name="created_sheet">创建的歌单</string>
+    <string name="create_sheet">创建歌单</string>
+    <string name="collected_sheet">收藏的歌单</string>
+    <string name="default_album">默认专辑</string>
+    <string name="have_created_sheet">你还没有创建歌单</string>
+    <string name="no_lyric">没有歌词</string>
+    <string name="song_count">%1$d首</string>
+
+    <string name="enter_sheet_title">请输入歌单标题</string>
+    <string name="edit_sheet">编辑歌单</string>
+    <string name="sheet_icon">封面</string>
+    <string name="hint_sheet_description">请输入歌单介绍</string>
+    <string name="sheet_description">歌单介绍</string>
+    <string name="sheet_title">歌单标题</string>
+
+    <!--本地音乐-->
+    <string name="scan_local_music">扫描本地音乐</string>
+    <string name="batch_edit">批量编辑</string>
+    <string name="start_scan">开始扫描</string>
+    <string name="found_music_count">找到%1$d首音乐</string>
+    <string name="to_my_music">回到我的本地音乐</string>
+    <string name="stop_scan">停止扫描</string>
+    <string name="cancel_edit">取消编辑</string>
+    <string name="tips">提示</string>
+    <string name="confirm_message">是否确认?</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="sort">排序</string>
+    <string name="music_app_widget">桌面播放器</string>
+    <string name="no_music_playe">未播放音乐</string>
+
+    <string name="lock_lyric_title">桌面歌词已经锁定</string>
+    <string name="lock_lyric_content">点击解锁</string>
+</resources>
