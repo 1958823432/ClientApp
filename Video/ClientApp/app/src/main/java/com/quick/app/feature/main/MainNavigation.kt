@@ -1,26 +1,34 @@
 package com.quick.app.feature.main
 
+import android.graphics.pdf.PdfDocument.Page
+import androidx.compose.foundation.layout.Column
+import androidx.compose.material3.Button
+import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
-import androidx.navigation.NavController
-import androidx.navigation.NavGraphBuilder
-import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
-import com.quick.app.feature.splash.SPLASH_ROUTE
-import com.quick.app.feature.splash.SplashRoute
-import com.quick.app.feature.splash.splashScreen
+import androidx.navigation.compose.rememberNavController
 
-const val MAIN_ROUTE = "main"
-
-
-fun NavController.navigateToMain(): Unit {
-	navigate(MAIN_ROUTE)
+@Composable
+fun MainRoute(
+	finishPage: () -> Unit,
+){
+	MainScreen(
+		finishPage = finishPage
+	)
 }
 
-fun NavGraphBuilder.mainScreen()
+@Composable
+fun MainScreen(
+	finishPage: () -> Unit = {},
+)
 {
-	composable(MAIN_ROUTE)
-	{
-		MainRoute()
+	Column {
+		Text(text = "MainScreen")
+		Button(onClick = {
+			// Handle button click
+		}) {
+			Text(text = "Click Me")
+		}
 	}
 }

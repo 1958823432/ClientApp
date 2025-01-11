@@ -15,7 +15,8 @@ fun MyApp(navController: NavHostController) {
         splashScreen(
             toMain = navController::navigateToMain
         )
-        mainScreen()
+        mainScreen(
+            navController::popBackStack
+        )
     }
 }
-

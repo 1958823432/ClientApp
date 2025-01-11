@@ -1,0 +1,43 @@
+Index: .idea/deploymentTargetSelector.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"deploymentTargetSelector\">\n    <selectionStates>\n      <SelectionState runConfigName=\"app\">\n        <option name=\"selectionMode\" value=\"DROPDOWN\" />\n      </SelectionState>\n      <SelectionState runConfigName=\"MainActivity\">\n        <option name=\"selectionMode\" value=\"DROPDOWN\" />\n      </SelectionState>\n    </selectionStates>\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/deploymentTargetSelector.xml b/.idea/deploymentTargetSelector.xml
+--- a/.idea/deploymentTargetSelector.xml	(revision 59ffb260dc1531c0d4be5c926f6f34b72a6f4e3e)
++++ b/.idea/deploymentTargetSelector.xml	(date 1736593574974)
+@@ -4,6 +4,14 @@
+     <selectionStates>
+       <SelectionState runConfigName="app">
+         <option name="selectionMode" value="DROPDOWN" />
++        <DropdownSelection timestamp="2025-01-11T11:04:45.304251Z">
++          <Target type="DEFAULT_BOOT">
++            <handle>
++              <DeviceId pluginId="LocalEmulator" identifier="path=/Users/wangyongxin/.android/avd/Medium_Phone.avd" />
++            </handle>
++          </Target>
++        </DropdownSelection>
++        <DialogSelection />
+       </SelectionState>
+       <SelectionState runConfigName="MainActivity">
+         <option name="selectionMode" value="DROPDOWN" />
+Index: .idea/inspectionProfiles/Project_Default.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"InspectionProjectProfileManager\">\n  <profile version=\"1.0\">\n    <option name=\"myName\" value=\"Project Default\" />\n    <inspection_tool class=\"AndroidLintUnsafeImplicitIntentLaunch\" enabled=\"false\" level=\"ERROR\" enabled_by_default=\"false\" />\n    <inspection_tool class=\"ComposePreviewDimensionRespectsLimit\" enabled=\"true\" level=\"WARNING\" enabled_by_default=\"true\">\n      <option name=\"composableFile\" value=\"true\" />\n      <option name=\"previewFile\" value=\"true\" />\n    </inspection_tool>\n    <inspection_tool class=\"ComposePreviewMustBeTopLevelFunction\" enabled=\"true\" level=\"ERROR\" enabled_by_default=\"true\">\n      <option name=\"composableFile\" value=\"true\" />\n      <option name=\"previewFile\" value=\"true\" />\n    </inspection_tool>\n    <inspection_tool class=\"ComposePreviewNeedsComposableAnnotation\" enabled=\"true\" level=\"ERROR\" enabled_by_default=\"true\">\n      <option name=\"composableFile\" value=\"true\" />\n      <option name=\"previewFile\" value=\"true\" />\n    </inspection_tool>\n    <inspection_tool class=\"ComposePreviewNotSupportedInUnitTestFiles\" enabled=\"true\" level=\"ERROR\" enabled_by_default=\"true\">\n      <option name=\"composableFile\" value=\"true\" />\n      <option name=\"previewFile\" value=\"true\" />\n    </inspection_tool>\n    <inspection_tool class=\"GlancePreviewDimensionRespectsLimit\" enabled=\"true\" level=\"WARNING\" enabled_by_default=\"true\">\n      <option name=\"composableFile\" value=\"true\" />\n    </inspection_tool>\n    <inspection_tool class=\"GlancePreviewMustBeTopLevelFunction\" enabled=\"true\" level=\"ERROR\" enabled_by_default=\"true\">\n      <option name=\"composableFile\" value=\"true\" />\n    </inspection_tool>\n    <inspection_tool class=\"GlancePreviewNeedsComposableAnnotation\" enabled=\"true\" level=\"ERROR\" enabled_by_default=\"true\">\n      <option name=\"composableFile\" value=\"true\" />\n    </inspection_tool>\n    <inspection_tool class=\"GlancePreviewNotSupportedInUnitTestFiles\" enabled=\"true\" level=\"ERROR\" enabled_by_default=\"true\">\n      <option name=\"composableFile\" value=\"true\" />\n    </inspection_tool>\n    <inspection_tool class=\"PreviewAnnotationInFunctionWithParameters\" enabled=\"true\" level=\"ERROR\" enabled_by_default=\"true\">\n      <option name=\"composableFile\" value=\"true\" />\n      <option name=\"previewFile\" value=\"true\" />\n    </inspection_tool>\n    <inspection_tool class=\"PreviewApiLevelMustBeValid\" enabled=\"true\" level=\"ERROR\" enabled_by_default=\"true\">\n      <option name=\"composableFile\" value=\"true\" />\n      <option name=\"previewFile\" value=\"true\" />\n    </inspection_tool>\n    <inspection_tool class=\"PreviewDeviceShouldUseNewSpec\" enabled=\"true\" level=\"WEAK WARNING\" enabled_by_default=\"true\">\n      <option name=\"composableFile\" value=\"true\" />\n      <option name=\"previewFile\" value=\"true\" />\n    </inspection_tool>\n    <inspection_tool class=\"PreviewFontScaleMustBeGreaterThanZero\" enabled=\"true\" level=\"ERROR\" enabled_by_default=\"true\">\n      <option name=\"composableFile\" value=\"true\" />\n      <option name=\"previewFile\" value=\"true\" />\n    </inspection_tool>\n    <inspection_tool class=\"PreviewMultipleParameterProviders\" enabled=\"true\" level=\"ERROR\" enabled_by_default=\"true\">\n      <option name=\"composableFile\" value=\"true\" />\n      <option name=\"previewFile\" value=\"true\" />\n    </inspection_tool>\n    <inspection_tool class=\"PreviewPickerAnnotation\" enabled=\"true\" level=\"ERROR\" enabled_by_default=\"true\">\n      <option name=\"composableFile\" value=\"true\" />\n      <option name=\"previewFile\" value=\"true\" />\n    </inspection_tool>\n  </profile>\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/inspectionProfiles/Project_Default.xml b/.idea/inspectionProfiles/Project_Default.xml
+--- a/.idea/inspectionProfiles/Project_Default.xml	(revision 59ffb260dc1531c0d4be5c926f6f34b72a6f4e3e)
++++ b/.idea/inspectionProfiles/Project_Default.xml	(date 1736593574949)
+@@ -1,7 +1,6 @@
+ <component name="InspectionProjectProfileManager">
+   <profile version="1.0">
+     <option name="myName" value="Project Default" />
+-    <inspection_tool class="AndroidLintUnsafeImplicitIntentLaunch" enabled="false" level="ERROR" enabled_by_default="false" />
+     <inspection_tool class="ComposePreviewDimensionRespectsLimit" enabled="true" level="WARNING" enabled_by_default="true">
+       <option name="composableFile" value="true" />
+       <option name="previewFile" value="true" />

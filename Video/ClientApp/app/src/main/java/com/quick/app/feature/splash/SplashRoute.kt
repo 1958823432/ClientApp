@@ -28,7 +28,7 @@ import com.quick.app.util.SuperDateUtil
 @Composable
 fun SplashRoute(
     toMain: () -> Unit,
-    ) {
+) {
     SplashScreen(
         year = SuperDateUtil.currentYear(),
         toMain = toMain
@@ -39,7 +39,7 @@ fun SplashRoute(
 fun SplashScreen(
     year: Int = 2024,
     toMain: () -> Unit = {},
-    ) {
+) {
     // 定义垂直渐变背景
     val gradient = Brush.verticalGradient(
         colors = listOf(
