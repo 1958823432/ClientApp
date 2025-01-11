@@ -1,10 +1,10 @@
 <resources>
-    <string name="app_name">云音乐</string>
+    <string name="app_name">ことーリスト</string>
 
     <string name="player_progress_format" translatable="false">%1$s:%2$s</string>
 
     <!--版权文本-->
-    <string name="copyright" translatable="false">Copyright © %1$d Ixuea. All Rights Reserved</string>
+    <string name="copyright" translatable="false">Copyright © %1$d. All Rights Reserved</string>
 
     <!--用户协议-->
     <string name="term_service_privacy">服务条款和隐私协议提示</string>
